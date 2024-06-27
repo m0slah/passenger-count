@@ -1,11 +1,12 @@
 // document.getElementById("count").innerHTML=6;
 
-let count=0;
+// let firstBatch=5;
+// let secondBatch=7;
+// let count=firstBatch+ secondBatch;
+// console.log(count);
 
-console.log(count);
+let myAge=23;
+let humanDogRatio =7;
+let myDogAge=myAge * humanDogRatio;
+console.log(myDogAge)
 
-console.log(myAge) //ReferenceError: Cannot access 'myAge' before initialization
-
-let myAge=20;
-
-console.log(myAge)
