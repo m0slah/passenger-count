@@ -1,10 +1,12 @@
-// document.getElementById("count").innerHTML=6;
+// document.getElementById("count").innerText = 5
 
-// let count=4;
-// count=3;
-// count=2;
-// console.log(count)
+// change the count-el in the HTML to reflect the new count
 
-const increment=()=>{
-    console.log("button was clicked")
+let count = 0
+
+function increment() {
+    count = count + 1
+    console.log(count)
 }
+
+
